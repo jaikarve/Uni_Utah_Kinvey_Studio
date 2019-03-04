@@ -1,0 +1,148 @@
+{
+    "actionBar": true,
+    "actionBarTitle": "Event Detail",
+    "annotations": {
+        "dataSources": {
+            "name": "dataSourceName"
+        }
+    },
+    "authorization": {
+        "allowedRoles": []
+    },
+    "children": [
+        {
+            "absoluteLayout": {},
+            "appearanceStyles": {
+                "backgroundColor": null,
+                "color": null
+            },
+            "children": [
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {},
+                    "id": "mobilelabel0",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "text": "Title: {{$data.eventsDetail?.title}} ",
+                    "textWrap": false,
+                    "type": "mobile-label",
+                    "uniqueID": "bbc4e5fe-c1d8-4bf3-8fc0-6541951c1c11"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {},
+                    "id": "mobilelabel1",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "text": "Content: {{$data.eventsDetail?.content}} ",
+                    "textWrap": false,
+                    "type": "mobile-label",
+                    "uniqueID": "33dfd543-3271-4b45-baae-d74fcd80fd4e"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {},
+                    "id": "mobilelabel2",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "text": "Author: {{$data.eventsDetail?.author}} ",
+                    "textWrap": false,
+                    "type": "mobile-label",
+                    "uniqueID": "e2e94531-9bd3-44cc-ba36-9a51429bfde6"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "classList": "bold",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {},
+                    "id": "mobilelabel3",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "text": "Date: {{$data.eventsDetail?.pubDate}} ",
+                    "textWrap": false,
+                    "type": "mobile-label",
+                    "uniqueID": "56b745b1-01c8-40b8-b2d1-bad9b393d0f9"
+                }
+            ],
+            "classList": "",
+            "dockLayout": {},
+            "flexboxLayout": {
+                "alignSelf": "stretch",
+                "flexWrapBefore": false
+            },
+            "gridLayout": {},
+            "id": "mobilestacklayout0",
+            "orientation": "Vertical",
+            "platform": "mobile",
+            "schemaVersion": "1.0",
+            "type": "mobile-stack-layout",
+            "uniqueID": "b37f564b-7b53-4f57-95c8-958578dcaaa8"
+        }
+    ],
+    "dataSources": [
+        {
+            "batch": true,
+            "dataProviderName": "DefaultDataProvider",
+            "dataSourceName": "Events",
+            "filterDataSource": false,
+            "foreignKeyProperty": "",
+            "name": "EventsDetail",
+            "pageSize": 20,
+            "primaryKeyDocumentDataSource": "",
+            "primaryKeyProperty": "",
+            "singleDocument": true,
+            "uniqueID": "990400d9-1c1e-46be-8325-fb9e4e6afa99"
+        }
+    ],
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "hidden": false,
+    "label": "Event Detail",
+    "name": "events_detail",
+    "platform": "mobile",
+    "schemaVersion": "1.0",
+    "type": "view",
+    "uniqueID": "eaf4f647-e342-4133-87a6-9c159d4ef9df",
+    "viewType": "mobile-blank"
+}

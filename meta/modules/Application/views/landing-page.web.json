@@ -1,0 +1,21 @@
+{
+    "authorization": {
+        "allowedRoles": []
+    },
+    "customSections": {
+        "bottom": "bottomSection.html",
+        "top": "topSection.html"
+    },
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "name": "landing-page",
+    "platform": "web",
+    "readonly": false,
+    "schemaVersion": "1.0",
+    "type": "view",
+    "uniqueID": "c9da8acc-6149-49a2-baec-4b1c47a792d7",
+    "viewType": "landing-page"
+}

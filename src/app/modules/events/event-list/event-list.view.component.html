@@ -1,0 +1,58 @@
+<!--
+Auto-generated
+Do not edit!!!
+-->
+<div class="ks-data-grid title">
+    <div class="row">
+        <div class="col-12">
+            <ks-top-section></ks-top-section>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <h2>{{ $config.titleKey | translate }}</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <ks-middle-section></ks-middle-section>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <ks-grid #grid [config]="$config.components.grid" [dataService]="$dataServices['Events']" [state]="$dataServicesState['Events']" [view]="$dataServicesResult['Events']">
+                <kendo-grid [pageable]="grid.config.pageable" [sortable]="grid.config.sortable" [filterable]="grid.config.filterable" [groupable]="grid.config.groupable"
+                    [data]="grid.view | async" [pageSize]="grid.state.take" [skip]="grid.state.skip" [sort]="grid.state.sort" [filter]="grid.state.filter"
+                    [group]="grid.state.group" [loading]="grid.dataService.pendingData" (dataStateChange)="grid.dataStateChange($event)" kendoGridSelectBy
+                    [selectedKeys]="grid.selectedKeys" [selectable]="{ mode: 'single' }" (selectionChange)="grid.selectionChange($event)" [resizable]="grid.config.resizable"
+                    [reorderable]="grid.config.reorderable">
+                    <kendo-grid-column [field]="'creator'" [filterable]="true" [filter]="'text'" [sortable]="true" [title]="'modules.Events.views.event_list.columns.creator' | translate">
+                    </kendo-grid-column>
+                    <kendo-grid-column [field]="'title'" [filterable]="true" [filter]="'date'" [sortable]="true" [title]="'modules.Events.views.event_list.columns.title' | translate">
+                    </kendo-grid-column>
+                    <kendo-grid-column [field]="'link'" [filterable]="true" [filter]="'text'" [sortable]="true" [title]="'modules.Events.views.event_list.columns.link' | translate">
+                    </kendo-grid-column>
+                    <kendo-grid-column [field]="'pubDate'" [filterable]="true" [filter]="'date'" [sortable]="true" [title]="'modules.Events.views.event_list.columns.pubDate' | translate">
+                    </kendo-grid-column>
+                    <kendo-grid-column [field]="'author'" [filterable]="true" [filter]="'text'" [sortable]="true" [title]="'modules.Events.views.event_list.columns.author' | translate">
+                    </kendo-grid-column>
+                    <kendo-grid-column [field]="'content'" [filterable]="true" [filter]="'text'" [sortable]="true" [title]="'modules.Events.views.event_list.columns.content' | translate">
+                    </kendo-grid-column>
+                    <kendo-grid-column [field]="'contentSnippet'" [filterable]="true" [filter]="'text'" [sortable]="true" [title]="'modules.Events.views.event_list.columns.contentSnippet' | translate">
+                    </kendo-grid-column>
+                    <kendo-grid-column [field]="'isoDate'" [filterable]="true" [filter]="'date'" [sortable]="true" [title]="'modules.Events.views.event_list.columns.isoDate' | translate">
+                    </kendo-grid-column>
+                    <kendo-grid-column [field]="'_id'" [filterable]="true" [filter]="'text'" [sortable]="true" [title]="'modules.Events.views.event_list.columns._id' | translate">
+                    </kendo-grid-column>
+                    </kendo-grid>
+            </ks-grid>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <ks-bottom-section></ks-bottom-section>
+        </div>
+    </div>
+</div>

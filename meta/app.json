@@ -1,0 +1,51 @@
+{
+    "authorization": {
+        "roles": []
+    },
+    "build": {
+        "debug": {
+            "baseHref": "/"
+        },
+        "release": {
+            "aot": true,
+            "baseHref": "/"
+        }
+    },
+    "children": [],
+    "defaultLangaugeCulture": "en-US",
+    "defaultLanguageLabel": "English",
+    "description": "",
+    "layout": {},
+    "mobileNavigation": [
+        {
+            "displayName": "home",
+            "module": "Application",
+            "type": "tab",
+            "view": "home"
+        },
+        {
+            "displayName": "Events List",
+            "module": "Events",
+            "type": "tab",
+            "view": "events_list",
+            "viewLabel": "Events List"
+        },
+        {
+            "displayName": "Chat",
+            "module": "Events",
+            "type": "tab",
+            "view": "Chat_View",
+            "viewLabel": "Chat"
+        }
+    ],
+    "mobileTheme": "ruby",
+    "name": "U_of_U_Studio_2",
+    "ripple": false,
+    "schemaVersion": "1.0.0",
+    "startupViewInfo": {},
+    "targetFramework": "AngularWebAndMobile",
+    "theme": "metro",
+    "type": "app",
+    "uniqueID": "b2ecf1cf-93d8-4b4d-8d8c-a8b41cc3227b",
+    "webNavigation": []
+}

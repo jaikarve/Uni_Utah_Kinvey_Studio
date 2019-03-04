@@ -1,0 +1,36 @@
+<!--
+Auto-generated
+Do not edit!!!
+-->
+
+<ActionBar title="Event List">
+    <ActionItem ios.position="right">
+        <StackLayout>
+            <ks-navigation-label text="New" [tapArgs]=""></ks-navigation-label>
+        </StackLayout>
+    </ActionItem>
+</ActionBar>
+
+<GridLayout rows="50, *">
+    <ks-search-bar #searchBar [dataService]="$eventsService" [searchBy]="$config.searchBar.searchBy" [ignoreCase]="$config.searchBar.ignoreCase">
+        <SearchBar row="0" (textChange)="searchBar.onTextChanged($event)" (loaded)="searchBar.hideKeyboard($event)" (submit)="searchBar.hideKeyboard($event)"></SearchBar>
+    </ks-search-bar>
+    <ks-list-view #listView [dataService]="$eventsService" [navigateOnItemTap]="$config.listView.navigateOnItemTap">
+        <RadListView class="-two-lines" row="1" *ngIf="(listView.dataService.dataChanges | async) as items; else loading" [items]="items" pullToRefresh="true"
+            (pullToRefreshInitiated)="listView.onPullToRefreshInitiated($event)" loadOnDemandMode="Manual" (loadMoreDataRequested)="listView.onLoadMoreDataRequested($event)"
+            (itemTap)="listView.onItemTap($event)" swipeActions="false">
+
+            <ng-template let-item="item">
+                <StackLayout class="-separator">
+                    <Label text="{{ item.creator }}"></Label>
+                    <Label text="{{ item.isoDate }}"></Label>
+                </StackLayout>
+            </ng-template>
+
+
+            </RadListView>
+            <ng-template #loading>
+                <ActivityIndicator row="1" [busy]="true"></ActivityIndicator>
+            </ng-template>
+    </ks-list-view>
+</GridLayout>

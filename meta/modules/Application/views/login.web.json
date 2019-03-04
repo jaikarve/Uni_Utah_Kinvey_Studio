@@ -1,0 +1,27 @@
+{
+    "authorization": {
+        "allowedRoles": []
+    },
+    "customSections": {
+        "bottom": "bottomSection.html",
+        "middle": "middleSection.html",
+        "top": "topSection.html"
+    },
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "login": "onLogin",
+        "showEventHandler": "onShow"
+    },
+    "logo": "logo_default_login.png",
+    "name": "login",
+    "passwordLabel": "Password",
+    "platform": "web",
+    "readonly": false,
+    "schemaVersion": "1.0",
+    "title": "Login",
+    "type": "view",
+    "uniqueID": "5178f962-38be-4d23-9225-b5cdadd7bbe1",
+    "usernameLabel": "Username",
+    "viewType": "login"
+}

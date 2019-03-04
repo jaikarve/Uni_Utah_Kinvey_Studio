@@ -1,0 +1,343 @@
+{
+    "authorization": {
+        "allowedRoles": []
+    },
+    "classList": "title",
+    "columns": [
+        {
+            "componentOptions": {
+                "annotations": {
+                    "id": "componentIdentifier"
+                },
+                "debounce": 0,
+                "defaultValue": "",
+                "events": {
+                    "onChange": ""
+                },
+                "id": "ctl0",
+                "model": "",
+                "name": "creator",
+                "placeholder": "",
+                "schemaVersion": "1.0",
+                "title": "Creator",
+                "type": "text-box",
+                "uniqueID": "2b96f063-a048-48af-88bd-b35632f469b3",
+                "validation": {
+                    "required": false
+                }
+            },
+            "editable": true,
+            "encoded": true,
+            "field": "creator",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "Creator"
+        },
+        {
+            "componentOptions": {
+                "annotations": {
+                    "id": "componentIdentifier"
+                },
+                "events": {
+                    "onChange": ""
+                },
+                "id": "ctl1",
+                "maxDate": "2099-12-30T22:00:00.000Z",
+                "minDate": "1899-12-31T22:00:00.000Z",
+                "model": "",
+                "name": "title",
+                "schemaVersion": "1.0",
+                "title": "Title",
+                "type": "date-picker",
+                "uniqueID": "92567aec-ae24-4097-b127-1c5b2007b39a",
+                "validation": {
+                    "required": false
+                }
+            },
+            "editable": true,
+            "encoded": true,
+            "field": "title",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "Title"
+        },
+        {
+            "componentOptions": {
+                "annotations": {
+                    "id": "componentIdentifier"
+                },
+                "debounce": 0,
+                "defaultValue": "",
+                "events": {
+                    "onChange": ""
+                },
+                "id": "ctl2",
+                "model": "",
+                "name": "link",
+                "placeholder": "",
+                "schemaVersion": "1.0",
+                "title": "Link",
+                "type": "text-box",
+                "uniqueID": "94b6b028-e7f1-454d-a22a-75385e6c0323",
+                "validation": {
+                    "required": false
+                }
+            },
+            "editable": true,
+            "encoded": true,
+            "field": "link",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "Link"
+        },
+        {
+            "componentOptions": {
+                "annotations": {
+                    "id": "componentIdentifier"
+                },
+                "events": {
+                    "onChange": ""
+                },
+                "id": "ctl3",
+                "maxDate": "2099-12-30T22:00:00.000Z",
+                "minDate": "1899-12-31T22:00:00.000Z",
+                "model": "",
+                "name": "pubDate",
+                "schemaVersion": "1.0",
+                "title": "PubDate",
+                "type": "date-picker",
+                "uniqueID": "1103828a-6aa4-4c6a-bc7a-aeae81af1c3e",
+                "validation": {
+                    "required": false
+                }
+            },
+            "editable": true,
+            "encoded": true,
+            "field": "pubDate",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "PubDate"
+        },
+        {
+            "componentOptions": {
+                "annotations": {
+                    "id": "componentIdentifier"
+                },
+                "debounce": 0,
+                "defaultValue": "",
+                "events": {
+                    "onChange": ""
+                },
+                "id": "ctl4",
+                "model": "",
+                "name": "author",
+                "placeholder": "",
+                "schemaVersion": "1.0",
+                "title": "Author",
+                "type": "text-box",
+                "uniqueID": "81b3c8b8-4a57-435b-a907-2fe4549a373b",
+                "validation": {
+                    "required": false
+                }
+            },
+            "editable": true,
+            "encoded": true,
+            "field": "author",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "Author"
+        },
+        {
+            "componentOptions": {
+                "annotations": {
+                    "id": "componentIdentifier"
+                },
+                "debounce": 0,
+                "defaultValue": "",
+                "events": {
+                    "onChange": ""
+                },
+                "id": "ctl5",
+                "model": "",
+                "name": "content",
+                "placeholder": "",
+                "schemaVersion": "1.0",
+                "title": "Content",
+                "type": "text-box",
+                "uniqueID": "c97e79c9-756e-4653-8b38-5561bdeec2a0",
+                "validation": {
+                    "required": false
+                }
+            },
+            "editable": true,
+            "encoded": true,
+            "field": "content",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "Content"
+        },
+        {
+            "componentOptions": {
+                "annotations": {
+                    "id": "componentIdentifier"
+                },
+                "debounce": 0,
+                "defaultValue": "",
+                "events": {
+                    "onChange": ""
+                },
+                "id": "ctl6",
+                "model": "",
+                "name": "contentSnippet",
+                "placeholder": "",
+                "schemaVersion": "1.0",
+                "title": "ContentSnippet",
+                "type": "text-box",
+                "uniqueID": "2816aa64-e029-46b9-95a2-968e4d73f2c1",
+                "validation": {
+                    "required": false
+                }
+            },
+            "editable": true,
+            "encoded": true,
+            "field": "contentSnippet",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "ContentSnippet"
+        },
+        {
+            "componentOptions": {
+                "annotations": {
+                    "id": "componentIdentifier"
+                },
+                "events": {
+                    "onChange": ""
+                },
+                "id": "ctl7",
+                "maxDate": "2099-12-30T22:00:00.000Z",
+                "minDate": "1899-12-31T22:00:00.000Z",
+                "model": "",
+                "name": "isoDate",
+                "schemaVersion": "1.0",
+                "title": "IsoDate",
+                "type": "date-picker",
+                "uniqueID": "f42707fc-a607-415e-a26b-aaa21625b95b",
+                "validation": {
+                    "required": false
+                }
+            },
+            "editable": true,
+            "encoded": true,
+            "field": "isoDate",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "IsoDate"
+        },
+        {
+            "componentOptions": {
+                "annotations": {
+                    "id": "componentIdentifier"
+                },
+                "debounce": 0,
+                "defaultValue": "",
+                "events": {
+                    "onChange": ""
+                },
+                "id": "ctl8",
+                "model": "",
+                "name": "_id",
+                "placeholder": "",
+                "schemaVersion": "1.0",
+                "title": "Id",
+                "type": "text-box",
+                "uniqueID": "bc7e262e-bf80-40ef-8755-ab98dbb13746",
+                "validation": {
+                    "required": false
+                }
+            },
+            "editable": true,
+            "encoded": true,
+            "field": "_id",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "Id"
+        }
+    ],
+    "customSections": {
+        "bottom": "bottomSection.html",
+        "middle": "middleSection.html",
+        "top": "topSection.html"
+    },
+    "dataProvider": "DefaultDataProvider",
+    "dataSource": "Events",
+    "editOptions": {
+        "allowDelete": true,
+        "allowEdit": true,
+        "allowInsert": true,
+        "batch": true,
+        "rowButtons": {
+            "canceledit": {
+                "content": "Cancel"
+            },
+            "destroy": {
+                "content": "Delete",
+                "icon": "k-icon k-i-close"
+            },
+            "edit": {
+                "content": "Edit",
+                "icon": "k-icon k-i-edit"
+            },
+            "update": {
+                "content": "Update"
+            }
+        },
+        "toolbarButtons": {
+            "cancel": {
+                "content": "Cancel changes",
+                "icon": "k-icon k-i-cancel"
+            },
+            "create": {
+                "content": "New",
+                "icon": "k-icon k-i-add"
+            },
+            "save": {
+                "content": "Save changes",
+                "icon": "k-icon k-i-checkmark"
+            }
+        }
+    },
+    "editable": "ReadOnly",
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "onRowCreate": "",
+        "onRowDelete": "",
+        "onRowSelect": "onRowSelect",
+        "onRowUpdate": "",
+        "showEventHandler": "onShow"
+    },
+    "filterable": false,
+    "groupable": false,
+    "hidden": false,
+    "label": "Event List",
+    "name": "event_list",
+    "pageSize": 20,
+    "platform": "web",
+    "reorderable": false,
+    "resizable": false,
+    "schemaVersion": "1.0",
+    "sortable": false,
+    "title": "Events",
+    "type": "view",
+    "uniqueID": "313a3961-7521-419b-822d-8de9f43571a1",
+    "viewType": "data-grid"
+}

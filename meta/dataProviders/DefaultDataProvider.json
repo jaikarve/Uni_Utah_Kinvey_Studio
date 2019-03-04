@@ -1,0 +1,273 @@
+{
+    "authentication": {
+        "mobile": {
+            "authenticationType": "kinvey-auth",
+            "settings": {}
+        },
+        "web": {
+            "authenticationType": "kinvey-auth",
+            "settings": {}
+        }
+    },
+    "children": [
+        {
+            "clientSideProcessing": false,
+            "collection": "shuttles",
+            "excludedFields": [
+                {
+                    "editorType": "text-input",
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "editorType": "text-input",
+                            "fieldType": "string",
+                            "label": "Creator",
+                            "name": "creator",
+                            "required": false
+                        }
+                    ],
+                    "label": "Acl",
+                    "name": "_acl",
+                    "required": false
+                },
+                {
+                    "editorType": "text-input",
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "editorType": "date-input",
+                            "fieldType": "date",
+                            "label": "Ect",
+                            "name": "ect",
+                            "required": false
+                        },
+                        {
+                            "editorType": "date-input",
+                            "fieldType": "date",
+                            "label": "Lmt",
+                            "name": "lmt",
+                            "required": false
+                        }
+                    ],
+                    "label": "Kmd",
+                    "name": "_kmd",
+                    "required": false
+                }
+            ],
+            "fields": [
+                {
+                    "editorType": "numeric-input",
+                    "fieldType": "number",
+                    "label": "GroundSpeed",
+                    "name": "GroundSpeed",
+                    "required": false
+                },
+                {
+                    "editorType": "numeric-input",
+                    "fieldType": "number",
+                    "label": "Heading",
+                    "name": "Heading",
+                    "required": false
+                },
+                {
+                    "editorType": "check-box",
+                    "fieldType": "boolean",
+                    "label": "IsDelayed",
+                    "name": "IsDelayed",
+                    "required": false
+                },
+                {
+                    "editorType": "check-box",
+                    "fieldType": "boolean",
+                    "label": "IsOnRoute",
+                    "name": "IsOnRoute",
+                    "required": false
+                },
+                {
+                    "editorType": "numeric-input",
+                    "fieldType": "number",
+                    "label": "Latitude",
+                    "name": "Latitude",
+                    "required": false
+                },
+                {
+                    "editorType": "numeric-input",
+                    "fieldType": "number",
+                    "label": "Longitude",
+                    "name": "Longitude",
+                    "required": false
+                },
+                {
+                    "editorType": "date-input",
+                    "fieldType": "date",
+                    "label": "Name",
+                    "name": "Name",
+                    "required": false
+                },
+                {
+                    "editorType": "numeric-input",
+                    "fieldType": "number",
+                    "label": "RouteID",
+                    "name": "RouteID",
+                    "required": false
+                },
+                {
+                    "editorType": "numeric-input",
+                    "fieldType": "number",
+                    "label": "Seconds",
+                    "name": "Seconds",
+                    "required": false
+                },
+                {
+                    "editorType": "text-input",
+                    "fieldType": "string",
+                    "label": "TimeStamp",
+                    "name": "TimeStamp",
+                    "required": false
+                },
+                {
+                    "editorType": "numeric-input",
+                    "fieldType": "number",
+                    "label": "VehicleID",
+                    "name": "VehicleID",
+                    "required": false
+                },
+                {
+                    "editorType": "text-input",
+                    "fieldType": "string",
+                    "label": "Id",
+                    "name": "_id",
+                    "required": false
+                }
+            ],
+            "name": "Shuttles"
+        },
+        {
+            "clientSideProcessing": false,
+            "collection": "events",
+            "excludedFields": [
+                {
+                    "editorType": "text-input",
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "editorType": "text-input",
+                            "fieldType": "string",
+                            "label": "Creator",
+                            "name": "creator",
+                            "required": false
+                        }
+                    ],
+                    "label": "Acl",
+                    "name": "_acl",
+                    "required": false
+                },
+                {
+                    "editorType": "text-input",
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "editorType": "date-input",
+                            "fieldType": "date",
+                            "label": "Ect",
+                            "name": "ect",
+                            "required": false
+                        },
+                        {
+                            "editorType": "date-input",
+                            "fieldType": "date",
+                            "label": "Lmt",
+                            "name": "lmt",
+                            "required": false
+                        }
+                    ],
+                    "label": "Kmd",
+                    "name": "_kmd",
+                    "required": false
+                }
+            ],
+            "fields": [
+                {
+                    "editorType": "text-input",
+                    "fieldType": "string",
+                    "label": "Creator",
+                    "name": "creator",
+                    "required": false
+                },
+                {
+                    "editorType": "date-input",
+                    "fieldType": "date",
+                    "label": "Title",
+                    "name": "title",
+                    "required": false
+                },
+                {
+                    "editorType": "text-input",
+                    "fieldType": "string",
+                    "label": "Link",
+                    "name": "link",
+                    "required": false
+                },
+                {
+                    "editorType": "date-input",
+                    "fieldType": "date",
+                    "label": "PubDate",
+                    "name": "pubDate",
+                    "required": false
+                },
+                {
+                    "editorType": "text-input",
+                    "fieldType": "string",
+                    "label": "Author",
+                    "name": "author",
+                    "required": false
+                },
+                {
+                    "editorType": "text-input",
+                    "fieldType": "string",
+                    "label": "Content",
+                    "name": "content",
+                    "required": false
+                },
+                {
+                    "editorType": "text-input",
+                    "fieldType": "string",
+                    "label": "ContentSnippet",
+                    "name": "contentSnippet",
+                    "required": false
+                },
+                {
+                    "editorType": "date-input",
+                    "fieldType": "date",
+                    "label": "IsoDate",
+                    "name": "isoDate",
+                    "required": false
+                },
+                {
+                    "editorType": "text-input",
+                    "fieldType": "string",
+                    "label": "Id",
+                    "name": "_id",
+                    "required": false
+                }
+            ],
+            "name": "Events"
+        }
+    ],
+    "kinveyApp": {
+        "id": "4a16b142b00e4525a066f7caf1de12f2",
+        "name": "U of U POC"
+    },
+    "kinveyAppEnvironment": {
+        "appSecret": "2b902b81c1c04a87bf65b3fbffb8b960",
+        "id": "kid_SJBnnCQXN",
+        "instanceId": "",
+        "masterSecret": "4fb25c9bf75444d1a9c48f1f6f1f98d5",
+        "name": "Development"
+    },
+    "name": "DefaultDataProvider",
+    "schemaVersion": "1.0",
+    "serviceUri": "https://baas.kinvey.com",
+    "type": "kinvey-data-provider",
+    "uniqueID": "0cafcdad-e17b-467b-8539-4e58b3700311"
+}

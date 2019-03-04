@@ -1,0 +1,18 @@
+{
+    "authorization": {
+        "allowedRoles": []
+    },
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "label": "Chat",
+    "name": "Chat_View",
+    "nativeChatConfig": "{\r\n  \"botId\": \"5c74a4817e240411bf114338\",\r\n  \"channelId\": \"4941a3f5-ac65-4986-87d9-ad4316fbbb03\",\r\n  \"channelToken\": \"68a79180-ddb5-421d-b8ba-ae161be01026\"\r\n}",
+    "platform": "mobile",
+    "schemaVersion": "1.0",
+    "type": "view",
+    "uniqueID": "c653ca5b-951a-4bad-96f4-03c852a1b8c4",
+    "viewType": "mobile-chat-view"
+}

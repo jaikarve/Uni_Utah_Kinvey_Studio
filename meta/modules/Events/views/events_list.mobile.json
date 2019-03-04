@@ -1,0 +1,36 @@
+{
+    "actionBar": true,
+    "actionBarNewButton": true,
+    "actionBarNewButtonText": "New",
+    "actionBarTitle": "Event List",
+    "authorization": {
+        "allowedRoles": []
+    },
+    "dataProvider": "DefaultDataProvider",
+    "dataSource": "Events",
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "label": "Events List",
+    "name": "events_list",
+    "navigateOnItemTap": {
+        "module": "events",
+        "parameter": "",
+        "view": "events-detail"
+    },
+    "navigateOnNewTap": {
+        "parameter": ""
+    },
+    "pageSize": 20,
+    "platform": "mobile",
+    "schemaVersion": "1.0",
+    "searchable": true,
+    "secondLine": "isoDate",
+    "swipeable": false,
+    "title": "creator",
+    "type": "view",
+    "uniqueID": "ce5e74ea-a4e7-4ce1-92c2-43a99f545058",
+    "viewType": "mobile-list-view"
+}

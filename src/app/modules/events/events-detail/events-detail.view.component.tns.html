@@ -1,0 +1,16 @@
+<!--
+Auto-generated
+Do not edit!!!
+-->
+
+<ActionBar title="Event Detail">
+</ActionBar>
+
+<ng-container *ngIf="{ eventsDetail: $eventsDetailService.dataChanges | async } as $data">
+    <StackLayout orientation="Vertical">
+        <Label text="Title: {{$data.eventsDetail?.title}} " textWrap="false"></Label>
+        <Label text="Content: {{$data.eventsDetail?.content}} " textWrap="false"></Label>
+        <Label text="Author: {{$data.eventsDetail?.author}} " textWrap="false"></Label>
+        <Label text="Date: {{$data.eventsDetail?.pubDate}} " textWrap="false" class="bold"></Label>
+    </StackLayout>
+</ng-container>

@@ -1,0 +1,19 @@
+{
+    "authorization": {
+        "allowedRoles": []
+    },
+    "children": [],
+    "description": "Events master and detail",
+    "label": "Events",
+    "moduleType": "default",
+    "name": "Events",
+    "order": 1,
+    "schemaVersion": "1.0",
+    "thumbnail": {
+        "background": "#00a2e8",
+        "color": "#ffffff",
+        "icon": "fa-glass"
+    },
+    "type": "module",
+    "uniqueID": "0b8e0367-5dac-4c71-b19b-b64828f702c1"
+}
